@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Gabriela&family=Oswald:wght@200..700&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: white;
+
+}
+
+.container {
+    background: linear-gradient(to right, #010F14, #246340, #968805);
+
+    display: flex;
+}
+
+.container .left {
+    position: fixed;
+    flex: 1;
+    text-align: left;
+    justify-content: center;
+    height: 100vh;
+    margin: 2rem;
+    padding-top: 30vh;
+}
+
+.container .left h1 {
+    font-size: 3rem;
+}
+
+.container .left p {
+    width: 30rem;
+    padding-bottom: 1rem;
+    opacity: 0.8;
+}
+
+.container .left i {
+    display: inline-block;
+    width: 1.5rem;
+    height: 2rem;
+    border: none;
+    margin-right: 3rem;
+    transition: 0.5s;
+}
+
+.container .left i:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+.container .left .section {
+    padding-bottom: 2rem;
+}
+
+.container .left .section a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.7;
+    transition: 0.3s;
+    width: 8rem;
+}
+
+a:hover {
+    transition: 0.3s;
+    transform: scale(0.95);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.container .right {
+    flex: 1;
+    margin: 2rem;
+    margin-left: 50vw;
+
+}
+
+.container .right h2 {
+    padding: 1rem;
+    text-align: center;
+    /* margin-bottom: 1rem; */
+}
+
+.container .right h4 {
+    padding: 0rem 1rem 1rem 0rem;
+}
+
+.container .right ul {
+    margin-left: 1rem;
+}
+
+.container .right .detail {
+    min-height: 100vh;
+    padding: 1rem;
+    margin: 2rem 0rem;
+
+    box-shadow: inset 0px 0px 20px 1px gray;
+    border-radius: 2rem;
+}
+
+.container .right .detail .exp .title {
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+
+.container .right {
+    width: 0;
+}
+
+
+.proj .title {
+    padding-top: 2rem;
+
+}
